@@ -1,0 +1,9 @@
+This repository contains my PKGBUILDS for the Arch User Repository.
+
+This is just a small help for me:
+makepkg -g --> generate md5sum
+makepkg --source --> generate source package
+makepkg -c --> build package and clean everything up after building the package is finished
+makepkg -i --> install the package
+
+My AUR-Packages: https://aur.archlinux.org/packages.php?SeB=m&K=sh4nks
