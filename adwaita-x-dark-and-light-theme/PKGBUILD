@@ -1,9 +1,9 @@
 # Maintainer: sh4nks <https://github.com/sh4nks/pkgbuilds>
 # Author: KEIII <gnome-look.org>
-pkgname=adwaita-x-dark-and-light-theme
+pkgname=gtk-theme-adwaita-x-dark-and-light
 pkgver=0.9
 pkgrel=3
-pkgdesc="Adwaita-X dark and light theme pack"
+pkgdesc="Adwaita-X dark and light theme pack (GTK3, GTK2, Mutter, Metacity, Xfwm4)"
 arch=('any')
 url="http://gnome-look.org/content/show.php?action=content&content=150905"
 license=('GPL')
