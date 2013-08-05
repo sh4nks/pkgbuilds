@@ -2,7 +2,7 @@
 # Author: infektedpc
 pkgname=gtk-theme-winter-mint
 pkgver=1.0
-pkgrel=1
+pkgrel=2
 pkgdesc="A Darkish Theme with Grey Accents. (Supports: GNOME Shell, Unity, Pantheon, Xfce and Openbox. Created for cinnamon-theme-winter-mint)"
 arch=('any')
 url="http://tech71.com/gtk3-theme-winter-mint-released"
