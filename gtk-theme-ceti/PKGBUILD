@@ -1,0 +1,17 @@
+# Maintainer: sh4nks <https://github.com/sh4nks/pkgbuilds>
+# Author: horst3180 @ deviantart
+pkgname=gtk-theme-ceti
+pkgver=1.0
+pkgrel=1
+pkgdesc="A darker theme with a mix of blue and light grey colors. Supports GNOME Shell, GTK3 and GTK2."
+arch=('any')
+url="http://horst3180.deviantart.com/art/Ceti-445892596"
+license=('GPLv3')
+depends=('gtk-engine-murrine')
+source=("http://fc03.deviantart.net/fs70/f/2014/097/d/8/ceti_by_horst3180-d7dh0xg.zip")
+md5sums=('2fb5260619cf10f7a168762d26b415ea')
+
+package() {
+    cd "Ceti-theme/Gnome_3-12"
+    find "Ceti" -type f -not -name *~ -exec install -Dm644 '{}' "$pkgdir/usr/share/themes/{}" \;
+}
